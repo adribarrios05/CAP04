@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Ej3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws NumberFormatException, Exception {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce un número del 1 al 7: ");
         int num = sc.nextInt();
