@@ -8,10 +8,19 @@ public class Ej12 {
         System.out.println("\tb) Una base de datos");
         System.out.println("\tc) Un modelo de datos");
         System.out.println("\td) Un lenguaje de base de datos");
-        boolean opcioncorrecta = sc.nextBoolean();
-        if (opcioncorrecta = true);
+        String respuesta = sc.nextLine();
+        boolean opcioncorrecta = false;
+        int cantidad = 0;
+        switch (respuesta){
+            case "d":
+                System.out.println("La respuesta es correcta");
+                cantidad++;
+            case "a","b","c":
+                System.out.println("La respuesta es incorrecta");
+        }
+
     }
     public static void main(String[] args) {
-        
+        ejercicio1();
     }
 }
